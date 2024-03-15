@@ -1968,3 +1968,82 @@ ActionView::Template::Error (undefined local variable or method `admin_path' for
 app/views/usuarios/index.html.erb:5
 [dotenv] Set [36mDATABASE_URL[0m
 [dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 12:29:20 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (85.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1784)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1908)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms | Allocations: 13029)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_path' for an instance of #<Class:0x0000021bd35ec130>):
+    2: 
+    3: 
+    4: <div>
+    5:     <%=link_to "Regresar", admin_path%>
+    6: </div>
+    7: <div>
+    8:     <%=link_to "Agregar usuario", new_usuario_path%>
+  
+app/views/usuarios/index.html.erb:5
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 12:30:31 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (165.8ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:13
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 1512.6ms | Allocations: 3918)
+  Rendered layout layouts/application.html.erb (Duration: 1687.6ms | Allocations: 59283)
+Completed 200 OK in 1703ms (Views: 842.9ms | ActiveRecord: 850.9ms | Allocations: 61387)
+
+
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 12:30:35 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 6745)
+Completed 200 OK in 41ms (Views: 36.5ms | ActiveRecord: 0.0ms | Allocations: 7234)
+
+
+Started GET "/usuarios/new" for 127.0.0.1 at 2024-03-15 12:30:37 -0600
+Processing by UsuariosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/new.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (Duration: 45.3ms | Allocations: 4164)
+  Rendered usuarios/new.html.erb within layouts/application (Duration: 47.8ms | Allocations: 4457)
+  Rendered layout layouts/application.html.erb (Duration: 61.2ms | Allocations: 10587)
+Completed 200 OK in 583ms (Views: 62.2ms | ActiveRecord: 449.2ms | Allocations: 21796)
+
+
+Started POST "/usuarios" for 127.0.0.1 at 2024-03-15 12:30:46 -0600
+Processing by UsuariosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "usuario"=>{"nombre"=>"Zarate", "correo"=>"Ben.41@gmail.com", "contraseña"=>"1548#415", "roll"=>"Administrador"}, "commit"=>"Create Usuario"}
+  [1m[36mTRANSACTION (77.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/usuarios_controller.rb:17:in `create'
+  [1m[36mUsuario Exists? (161.1ms)[0m  [1m[34mSELECT 1 AS one FROM "usuarios" WHERE "usuarios"."correo" = $1 LIMIT $2[0m  [["correo", "Ben.41@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:17:in `create'
+  [1m[36mUsuario Create (88.8ms)[0m  [1m[32mINSERT INTO "usuarios" ("nombre", "correo", "contraseña", "roll", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["nombre", "Zarate"], ["correo", "Ben.41@gmail.com"], ["contraseña", "1548#415"], ["roll", "Administrador"], ["created_at", "2024-03-15 18:30:47.061725"], ["updated_at", "2024-03-15 18:30:47.061725"]]
+  ↳ app/controllers/usuarios_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (79.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/usuarios_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/usuarios
+Completed 302 Found in 355ms (ActiveRecord: 407.0ms | Allocations: 6267)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 12:30:47 -0600
+Processing by UsuariosController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (154.5ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:13
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 158.5ms | Allocations: 608)
+  Rendered layout layouts/application.html.erb (Duration: 181.1ms | Allocations: 7289)
+Completed 200 OK in 186ms (Views: 27.5ms | ActiveRecord: 154.5ms | Allocations: 7603)
+
+
