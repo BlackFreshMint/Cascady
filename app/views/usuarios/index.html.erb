@@ -1,0 +1,21 @@
+<h2>Usuarios</h2>
+
+
+<div>
+    <%=link_to "Regresar", admins_path%>
+</div>
+<div>
+    <%=link_to "Agregar usuario", new_usuario_path%>
+</div>
+
+
+<ul>
+    <% @usuarios.each do |usuario|%>
+        <li>
+            <%= link_to usuario_path(usuario.id), class: 'usuario' do %>
+                <%=usuario.nombre %>
+                <%=usuario.correo%>
+            <%end%>
+        </li>
+    <% end %>
+</ul>

@@ -1,0 +1,16 @@
+<h2>Detalles de usuario</h2>
+<hr>
+
+<%= link_to "Regresar", usuarios_path%>
+<hr>
+
+<p>Nombre: <%=@usuario.nombre%></p>
+<p>Correo: <%=@usuario.correo%></p>
+<p>Contraseña: <%=@usuario.contraseña%></p>
+<p>Roll: <%=@usuario.roll%></p>
+
+<%= link_to "Editar", edit_usuario_path(@usuario) %></li>
+<%= link_to "Eliminar", usuario_path(@usuario), data: {
+    turbo_method: :delete,
+    turbo_confirm: "Estas seguro de eliminar el usuario ?"
+} %>

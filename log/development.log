@@ -1565,3 +1565,406 @@ Started GET "/output.css" for ::1 at 2024-03-13 08:37:13 -0600
   
 ActionController::RoutingError (No route matches [GET] "/output.css"):
   
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2024-03-15 09:36:19 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (107.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/_navbar.html.erb (Duration: 0.5ms | Allocations: 141)
+  Rendered articles/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 907)
+  Rendered layout layouts/application.html.erb (Duration: 418.4ms | Allocations: 75757)
+Completed 200 OK in 512ms (Views: 449.0ms | ActiveRecord: 0.0ms | Allocations: 83017)
+
+
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 09:36:23 -0600
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 09:36:23 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 09:36:23 -0600
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 09:36:23 -0600
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 09:36:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 09:36:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 09:36:24 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/" for 127.0.0.1 at 2024-03-15 09:37:54 -0600
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/_navbar.html.erb (Duration: 0.9ms | Allocations: 129)
+  Rendered articles/_footer.html.erb (Duration: 1.1ms | Allocations: 144)
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 741)
+  Rendered layout layouts/application.html.erb (Duration: 60.1ms | Allocations: 24717)
+Completed 200 OK in 74ms (Views: 70.8ms | ActiveRecord: 0.0ms | Allocations: 25643)
+
+
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 09:37:55 -0600
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 09:37:55 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 09:37:55 -0600
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 09:37:55 -0600
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 09:37:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 09:37:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 09:37:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 11:29:21 -0600
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 11:29:21 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 11:29:21 -0600
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 11:29:21 -0600
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 11:29:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 11:29:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 11:29:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/" for 127.0.0.1 at 2024-03-15 11:29:26 -0600
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/_navbar.html.erb (Duration: 0.4ms | Allocations: 128)
+  Rendered articles/_footer.html.erb (Duration: 0.5ms | Allocations: 144)
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 738)
+  Rendered layout layouts/application.html.erb (Duration: 53.7ms | Allocations: 24801)
+Completed 200 OK in 64ms (Views: 58.7ms | ActiveRecord: 0.0ms | Allocations: 25688)
+
+
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 11:29:26 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 11:29:26 -0600
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 11:29:26 -0600
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 11:29:26 -0600
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 11:29:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 11:29:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 11:29:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (79.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(625281553422693195)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (86.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (87.9ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+Migrating to CreateUsuarios (20240315180400)
+  [1m[36mTRANSACTION (77.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (117.5ms)[0m  [1m[35mCREATE TABLE "usuarios" ("id" bigserial primary key, "nombre" character varying, "correo" character varying, "contraseña" character varying, "roll" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (82.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240315180400') RETURNING "version"[0m
+  [1m[36mTRANSACTION (78.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreatePlatillos (20240315180528)
+  [1m[36mTRANSACTION (80.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (165.6ms)[0m  [1m[35mCREATE TABLE "platillos" ("id" bigserial primary key, "nombre" character varying, "precio" float, "descripcion" text, "promocion" float, "tipo" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (78.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240315180528') RETURNING "version"[0m
+  [1m[36mTRANSACTION (78.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (80.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(625281553422693195)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (85.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 12:12:23 -0600
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 12:12:23 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 12:12:23 -0600
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 12:12:23 -0600
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 12:12:23 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (87.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 12:12:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 12:12:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:12:32 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 12:13:43 -0600
+  
+ActionController::RoutingError (uninitialized constant AdminController):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:13:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:14:08 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:14:46 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 141.6ms | Allocations: 55424)
+Completed 200 OK in 156ms (Views: 146.3ms | ActiveRecord: 0.0ms | Allocations: 57366)
+
+
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:15:38 -0600
+  
+ActionController::RoutingError (uninitialized constant AdminController):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:15:40 -0600
+  
+ActionController::RoutingError (uninitialized constant AdminController):
+  
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:18:29 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 38.2ms | Allocations: 24077)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 24975)
+
+
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:18:33 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 6482)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 6745)
+
+
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:19:00 -0600
+  
+ActionController::RoutingError (uninitialized constant AdminController):
+  
+Started GET "/admin" for 127.0.0.1 at 2024-03-15 12:19:18 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:20:15 -0600
+  
+ActionController::RoutingError (uninitialized constant AdminController):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:20:17 -0600
+  
+ActionController::RoutingError (uninitialized constant AdminController):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:24:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 12:24:58 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 12:25:04 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 24085)
+Completed 200 OK in 67ms (Views: 60.3ms | ActiveRecord: 0.0ms | Allocations: 24983)
+
+
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 12:25:52 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 223)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 24197)
+Completed 200 OK in 67ms (Views: 60.3ms | ActiveRecord: 0.0ms | Allocations: 25131)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 12:25:54 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1296)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1385)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.0ms | Allocations: 11860)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_path' for an instance of #<Class:0x000002208bbe55c0>):
+    2: 
+    3: 
+    4: <div>
+    5:     <%=link_to "Regresar", admin_path%>
+    6: </div>
+    7: <div>
+    8:     <%=link_to "Agregar usuario", new_usuario_path%>
+  
+app/views/usuarios/index.html.erb:5
+Started GET "/platillos" for 127.0.0.1 at 2024-03-15 12:25:55 -0600
+Processing by PlatillosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering platillos/index.html.erb within layouts/application
+  Rendered platillos/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1237)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 1326)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 2607)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_path' for an instance of #<Class:0x000002208bbe55c0>):
+    1: <h2>Platillos</h2>
+    2: 
+    3: <hr>
+    4: <%=link_to "Regresar", admin_path%>
+    5: <%=link_to "Agregar platillo", new_platillo_path%>
+    6: 
+    7: <hr>
+  
+app/views/platillos/index.html.erb:4
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 12:25:58 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 992)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1081)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1338)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_path' for an instance of #<Class:0x000002208bbe55c0>):
+    2: 
+    3: 
+    4: <div>
+    5:     <%=link_to "Regresar", admin_path%>
+    6: </div>
+    7: <div>
+    8:     <%=link_to "Agregar usuario", new_usuario_path%>
+  
+app/views/usuarios/index.html.erb:5
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 12:27:07 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 992)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1081)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1337)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_path' for an instance of #<Class:0x000002208bbe55c0>):
+    2: 
+    3: 
+    4: <div>
+    5:     <%=link_to "Regresar", admin_path%>
+    6: </div>
+    7: <div>
+    8:     <%=link_to "Agregar usuario", new_usuario_path%>
+  
+app/views/usuarios/index.html.erb:5
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 12:27:20 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 992)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1081)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 1333)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_path' for an instance of #<Class:0x000002208bbe55c0>):
+    2: 
+    3: 
+    4: <div>
+    5:     <%=link_to "Regresar", admin_path%>
+    6: </div>
+    7: <div>
+    8:     <%=link_to "Agregar usuario", new_usuario_path%>
+  
+app/views/usuarios/index.html.erb:5
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m

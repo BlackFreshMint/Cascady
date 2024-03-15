@@ -1,0 +1,17 @@
+<h2>Platillos</h2>
+
+<hr>
+<%=link_to "Regresar", admins_path%>
+<%=link_to "Agregar platillo", new_platillo_path%>
+
+<hr>
+<ul>
+    <% @platillos.each do |platillo|%>
+        <li>
+            <%= link_to platillo_path(platillo.id), class: 'platillo' do %>
+                <%=platillo.nombre %>
+            <%end%>
+        </li>
+        <hr>
+    <% end %>
+</ul>
