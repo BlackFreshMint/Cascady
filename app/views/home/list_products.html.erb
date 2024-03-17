@@ -1,0 +1,19 @@
+<div class="flex flex-col min-[320px]:m-2 min-[320px]:space-y-1 sm:m-3 sm:space-y-2 md:m-4 md:space-y-3 lg:m-5 xl:m-6 xl:space-y-4 2xl:m-7 2xl:space-y-5">
+    <p class="font-ubuntu font-bold text-[#A50F0F] min-[320px]:text-[12px] sm:text-[16px] md:text-[20px] xl:text-[22px] 2xl:text-[24px]">Combos</p>
+    <hr class="border-dashed border-[#A50F0F] w-full">
+</div>
+
+<div class="min-[320px]:space-y-2 sm:space-y-3 md:space-y-4 lg:grid lg:grid-cols-2 lg:space-y-0 lg:mb-5 xl:mb-6 2xl:mb-7">
+    <% @productos.each do |producto|%>
+        <div class="bg-[#FFFFFF] flex flex-row rounded-lg hover:border-[#FF1F1F] hover:border-2 hover:border-solid hover:duration-75 min-[320px]:mx-2 min-[320px]:h-[54px] sm:mx-3 sm:h-[78px] md:mx-4 md:h-[110px] lg:mx-5 xl:mx-6 xl:h-[128px] 2xl:mx-7 2xl:h-[156px]">
+            <div class="min-[320px]:m-1 sm:m-2 md:m-3">
+                <img class="rounded h-full min-[320px]:w-[46px] sm:w-[62px] md:w-[86px] xl:w-[104px] 2xl:w-[132px]" src="../media/img/combo_pollo.jpg" alt="<%=producto.nombre %>">
+            </div>
+            <div class="flex flex-col h-full justify-between min-[320px]:pr-2 min-[320px]:py-1 sm:pr-2 sm:py-2 md:pr-3 md:py-3">
+                <p class="font-ubuntu font-bold text-[#4B0404] min-[320px]:text-[10px] sm:text-[14px] md:text-[18px] xl:text-[20px] 2xl:text-[24px]"><%=producto.nombre %></p>
+                <p class="font-ubuntu font-light text-[#6B6A6F] min-[320px]:text-[6px] sm:text-[10px] md:text-[14px] xl:text-[14px] 2xl:text-[16px]"><%=producto.descripcion %></p>
+                <p class="font-ubuntu font-bold text-[#FF1F1F] min-[320px]:text-[10px] sm:text-[14px] md:text-[18px] xl:text-[20px] 2xl:text-[24px]">$<%=producto.precio%></p>
+            </div>
+        </div> 
+    <% end %>
+</div>

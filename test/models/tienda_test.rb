@@ -1,6 +1,6 @@
 require "test_helper"
 
-class PlatilloTest < ActiveSupport::TestCase
+class TiendaTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

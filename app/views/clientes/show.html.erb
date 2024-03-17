@@ -1,0 +1,18 @@
+<h2>cliente <%=@cliente.nombre%></h2>
+<hr>
+
+<%= link_to "Regresar", clientes_path%>
+<hr>
+
+<p>Nombre: <%=@cliente.nombre%></p>
+<p>Correo: <%=@cliente.correo%></p>
+<p>Contraseña: <%=@cliente.contraseña%></p>
+<p>Telefono: <%=@cliente.telefono%></p>
+<p>Direccion: <%=@cliente.direccion%></p>
+
+
+<%= link_to "Editar", edit_cliente_path(@cliente) %></li>
+<%= link_to "Eliminar", cliente_path(@cliente), data: {
+    turbo_method: :delete,
+    turbo_confirm: "Estas seguro de eliminar el cliente ?"
+} %>

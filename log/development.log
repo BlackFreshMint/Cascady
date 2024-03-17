@@ -2047,3 +2047,1904 @@ Processing by UsuariosController#index as TURBO_STREAM
 Completed 200 OK in 186ms (Views: 27.5ms | ActiveRecord: 154.5ms | Allocations: 7603)
 
 
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:38:33 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 6608)
+Completed 200 OK in 46ms (Views: 39.3ms | ActiveRecord: 0.0ms | Allocations: 7095)
+
+
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:38:38 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 6480)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 6743)
+
+
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:40:14 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1336)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 1426)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms | Allocations: 2338)
+
+
+  
+ActionView::Template::Error (Missing partial articles/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "C:/Users/Diego/Ruby/Cascady/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.4/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actiontext-7.1.3.2/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.3.2/app/views"
+):
+     9: </head>
+    10: <body>
+    11: 
+    12: <%= render 'articles/navbar' %>
+    13: <div>
+    14: 
+    15: <div class="max-w-2xl mx-auto">
+  
+app/views/home/index.html.erb:12
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:40:44 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_navbar.html.erb (Duration: 1.1ms | Allocations: 131)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 57.8ms | Allocations: 24740)
+Completed 200 OK in 70ms (Views: 65.4ms | ActiveRecord: 0.0ms | Allocations: 25671)
+
+
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 12:40:44 -0600
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 12:40:44 -0600
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 12:40:44 -0600
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 12:40:44 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 12:40:44 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 12:40:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 12:40:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:45:20 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_navbar.html.erb (Duration: 1.2ms | Allocations: 129)
+  Rendered home/_footer.html.erb (Duration: 0.9ms | Allocations: 144)
+  Rendered home/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 737)
+  Rendered layout layouts/application.html.erb (Duration: 73.1ms | Allocations: 24760)
+Completed 200 OK in 91ms (Views: 84.4ms | ActiveRecord: 0.0ms | Allocations: 25691)
+
+
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 12:45:21 -0600
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 12:45:21 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 12:45:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 12:45:22 -0600
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 12:45:22 -0600
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 12:45:22 -0600
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 12:45:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/" for 127.0.0.1 at 2024-03-15 12:45:24 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_navbar.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 6840)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 7103)
+
+
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 12:45:24 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 12:45:24 -0600
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 12:45:24 -0600
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 12:45:24 -0600
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 12:45:24 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 12:45:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 12:45:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2024-03-15 17:24:10 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (98.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate
+
+You have 1 pending migration:
+
+db/migrate/20240315231933_create_productos.rb
+
+
+):
+  
+activerecord (7.1.3.2) lib/active_record/migration.rb:755:in `check_pending_migrations'
+activerecord (7.1.3.2) lib/active_record/migration.rb:644:in `block (2 levels) in call'
+activesupport (7.1.3.2) lib/active_support/file_update_checker.rb:85:in `execute'
+activerecord (7.1.3.2) lib/active_record/migration.rb:649:in `block in call'
+activerecord (7.1.3.2) lib/active_record/migration.rb:641:in `synchronize'
+activerecord (7.1.3.2) lib/active_record/migration.rb:641:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9.1) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9.1) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9.1) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.2) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (198.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(625281553422693195)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (273.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (192.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+Migrating to CreateProductos (20240315231933)
+  [1m[36mTRANSACTION (179.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (202.9ms)[0m  [1m[35mCREATE TABLE "productos" ("id" bigserial primary key, "nombre" character varying, "precio" float, "descripcion" text, "promocion" float, "tipo" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (201.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240315231933') RETURNING "version"[0m
+  [1m[36mTRANSACTION (202.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (203.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(625281553422693195)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (91.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2024-03-15 17:25:10 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (101.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_navbar.html.erb (Duration: 1.7ms | Allocations: 141)
+  Rendered home/_footer.html.erb (Duration: 1.5ms | Allocations: 146)
+  Rendered home/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 907)
+  Rendered layout layouts/application.html.erb (Duration: 481.6ms | Allocations: 57615)
+Completed 200 OK in 570ms (Views: 513.9ms | ActiveRecord: 0.0ms | Allocations: 62239)
+
+
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 17:25:13 -0600
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 17:25:13 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 17:25:13 -0600
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 17:25:13 -0600
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 17:25:13 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 17:25:15 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 17:25:15 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 17:25:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 17:25:25 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1211)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1300)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 1779)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `platillos_path' for an instance of #<Class:0x0000026f09139c58>):
+    2: <p>Pagina del administrador</p>
+    3: <ul>
+    4:     <li><a href="<%=usuarios_path%>">Usuarios</a></li>
+    5:     <li><a href="<%=platillos_path%>">Platillos</a></li>
+    6:     <li><a href="#">Establecimientos</a></li>
+    7:     <li><a href="#">Pedidos</a></li>
+    8: </ul>
+  
+app/views/admins/index.html.erb:5
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 17:26:06 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 116.1ms | Allocations: 24190)
+Completed 200 OK in 143ms (Views: 131.3ms | ActiveRecord: 0.0ms | Allocations: 25122)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 17:26:09 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (180.8ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:13
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 2171.2ms | Allocations: 14701)
+  Rendered layout layouts/application.html.erb (Duration: 2258.8ms | Allocations: 21189)
+Completed 200 OK in 2366ms (Views: 974.6ms | ActiveRecord: 1296.1ms | Allocations: 28220)
+
+
+Started GET "/usuarios/1" for 127.0.0.1 at 2024-03-15 17:26:12 -0600
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUsuario Load (88.8ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 352)
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 6846)
+Completed 200 OK in 419ms (Views: 46.5ms | ActiveRecord: 176.1ms | Allocations: 9507)
+
+
+Started GET "/usuarios/1" for 127.0.0.1 at 2024-03-15 17:26:13 -0600
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"1"}
+Started GET "/usuarios/new" for 127.0.0.1 at 2024-03-15 17:26:13 -0600
+  [1m[36mUsuario Load (105.9ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 82.9ms | Allocations: 6719)
+Completed 200 OK in 287ms (Views: 85.0ms | ActiveRecord: 105.9ms | Allocations: 8086)
+
+
+Processing by UsuariosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/new.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (Duration: 36.4ms | Allocations: 3099)
+  Rendered usuarios/new.html.erb within layouts/application (Duration: 41.6ms | Allocations: 3390)
+  Rendered layout layouts/application.html.erb (Duration: 87.7ms | Allocations: 9520)
+Completed 200 OK in 99ms (Views: 89.6ms | ActiveRecord: 0.0ms | Allocations: 9901)
+
+
+Started POST "/usuarios" for 127.0.0.1 at 2024-03-15 17:26:23 -0600
+Processing by UsuariosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "usuario"=>{"nombre"=>"Carlos", "correo"=>"Carlos.23@gmail.com", "contraseña"=>"15486997S#", "roll"=>"Administrador"}, "commit"=>"Create Usuario"}
+  [1m[36mTRANSACTION (151.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/usuarios_controller.rb:17:in `create'
+  [1m[36mUsuario Exists? (254.7ms)[0m  [1m[34mSELECT 1 AS one FROM "usuarios" WHERE "usuarios"."correo" = $1 LIMIT $2[0m  [["correo", "Carlos.23@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:17:in `create'
+  [1m[36mUsuario Create (92.3ms)[0m  [1m[32mINSERT INTO "usuarios" ("nombre", "correo", "contraseña", "roll", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["nombre", "Carlos"], ["correo", "Carlos.23@gmail.com"], ["contraseña", "15486997S#"], ["roll", "Administrador"], ["created_at", "2024-03-15 23:26:23.531889"], ["updated_at", "2024-03-15 23:26:23.531889"]]
+  ↳ app/controllers/usuarios_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (92.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/usuarios_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/usuarios
+Completed 302 Found in 463ms (ActiveRecord: 590.7ms | Allocations: 4492)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 17:26:23 -0600
+Processing by UsuariosController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (337.2ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:13
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 340.0ms | Allocations: 598)
+  Rendered layout layouts/application.html.erb (Duration: 380.1ms | Allocations: 7079)
+Completed 200 OK in 389ms (Views: 45.3ms | ActiveRecord: 337.2ms | Allocations: 7393)
+
+
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 17:26:27 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 6618)
+Completed 200 OK in 59ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 6883)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 17:26:28 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (710.5ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:13
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 715.2ms | Allocations: 598)
+Started GET "/usuarios/1" for 127.0.0.1 at 2024-03-15 17:26:29 -0600
+  Rendered layout layouts/application.html.erb (Duration: 811.1ms | Allocations: 7771)
+Completed 200 OK in 819ms (Views: 102.8ms | ActiveRecord: 710.5ms | Allocations: 8046)
+
+
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"1"}
+Started GET "/usuarios/2" for 127.0.0.1 at 2024-03-15 17:26:29 -0600
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (197.2ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 6592)
+Completed 200 OK in 571ms (Views: 47.6ms | ActiveRecord: 197.1ms | Allocations: 9537)
+
+
+  [1m[36mUsuario Load (87.3ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 6582)
+Completed 200 OK in 2965ms (Views: 46.7ms | ActiveRecord: 1226.1ms | Allocations: 17801)
+
+
+Started GET "/usuarios/2/edit" for 127.0.0.1 at 2024-03-15 17:26:33 -0600
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (90.6ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:25:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (Duration: 3.7ms | Allocations: 1343)
+  Rendered usuarios/edit.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1591)
+  Rendered layout layouts/application.html.erb (Duration: 46.7ms | Allocations: 7716)
+Completed 200 OK in 247ms (Views: 48.9ms | ActiveRecord: 90.5ms | Allocations: 8490)
+
+
+Started PATCH "/usuarios/2" for 127.0.0.1 at 2024-03-15 17:26:47 -0600
+Processing by UsuariosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "usuario"=>{"nombre"=>"Carlos Gonzalez", "correo"=>"Carlos.23@gmail.com", "contraseña"=>"154876489+5", "roll"=>"Administrador"}, "commit"=>"Update Usuario", "id"=>"2"}
+  [1m[36mUsuario Load (209.2ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:29:in `update'
+  [1m[36mTRANSACTION (196.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/usuarios_controller.rb:31:in `update'
+  [1m[36mUsuario Exists? (203.7ms)[0m  [1m[34mSELECT 1 AS one FROM "usuarios" WHERE "usuarios"."correo" = $1 AND "usuarios"."id" != $2 LIMIT $3[0m  [["correo", "Carlos.23@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:31:in `update'
+  [1m[36mTRANSACTION (202.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/usuarios_controller.rb:31:in `update'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (Duration: 19.6ms | Allocations: 2637)
+  Rendered usuarios/edit.html.erb within layouts/application (Duration: 21.2ms | Allocations: 2775)
+  Rendered layout layouts/application.html.erb (Duration: 61.8ms | Allocations: 9110)
+Completed 422 Unprocessable Entity in 1320ms (Views: 64.0ms | ActiveRecord: 1214.1ms | Allocations: 12925)
+
+
+Started PATCH "/usuarios/2" for 127.0.0.1 at 2024-03-15 17:26:54 -0600
+Processing by UsuariosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "usuario"=>{"nombre"=>"Carlos Gonzalez", "correo"=>"Carlos.23@gmail.com", "contraseña"=>"15487649", "roll"=>"Administrador"}, "commit"=>"Update Usuario", "id"=>"2"}
+  [1m[36mUsuario Load (220.4ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:29:in `update'
+  [1m[36mTRANSACTION (185.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/usuarios_controller.rb:31:in `update'
+  [1m[36mUsuario Exists? (287.9ms)[0m  [1m[34mSELECT 1 AS one FROM "usuarios" WHERE "usuarios"."correo" = $1 AND "usuarios"."id" != $2 LIMIT $3[0m  [["correo", "Carlos.23@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:31:in `update'
+  [1m[36mTRANSACTION (203.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/usuarios_controller.rb:31:in `update'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (Duration: 4.2ms | Allocations: 1717)
+  Rendered usuarios/edit.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1815)
+  Rendered layout layouts/application.html.erb (Duration: 48.0ms | Allocations: 8138)
+Completed 422 Unprocessable Entity in 1119ms (Views: 49.8ms | ActiveRecord: 896.9ms | Allocations: 11769)
+
+
+Started GET "/usuarios/2" for 127.0.0.1 at 2024-03-15 17:27:43 -0600
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (102.4ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 6573)
+Completed 200 OK in 344ms (Views: 46.3ms | ActiveRecord: 102.4ms | Allocations: 7271)
+
+
+Started GET "/usuarios/2" for 127.0.0.1 at 2024-03-15 17:27:44 -0600
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (101.2ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 6603)
+Completed 200 OK in 346ms (Views: 41.6ms | ActiveRecord: 101.2ms | Allocations: 7301)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 17:27:45 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (267.8ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:13
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 271.6ms | Allocations: 598)
+  Rendered layout layouts/application.html.erb (Duration: 317.1ms | Allocations: 7088)
+Completed 200 OK in 328ms (Views: 51.8ms | ActiveRecord: 267.7ms | Allocations: 7361)
+
+
+Started DELETE "/usuarios/2?_method=delete" for 127.0.0.1 at 2024-03-15 17:27:47 -0600
+Processing by UsuariosController#destroy as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (102.3ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/usuarios_controller.rb:39:in `destroy'
+  [1m[36mTRANSACTION (99.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/usuarios_controller.rb:40:in `destroy'
+  [1m[36mUsuario Destroy (306.0ms)[0m  [1m[31mDELETE FROM "usuarios" WHERE "usuarios"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/usuarios_controller.rb:40:in `destroy'
+  [1m[36mTRANSACTION (100.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/usuarios_controller.rb:40:in `destroy'
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 704ms (ActiveRecord: 608.5ms | Allocations: 2190)
+
+
+Started GET "/" for 127.0.0.1 at 2024-03-15 17:27:48 -0600
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_navbar.html.erb (Duration: 1.5ms | Allocations: 127)
+  Rendered home/_footer.html.erb (Duration: 1.3ms | Allocations: 144)
+  Rendered home/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 740)
+  Rendered layout layouts/application.html.erb (Duration: 56.7ms | Allocations: 7409)
+Completed 200 OK in 75ms (Views: 66.4ms | ActiveRecord: 0.0ms | Allocations: 7897)
+
+
+Started GET "/output.css" for 127.0.0.1 at 2024-03-15 17:27:48 -0600
+Started GET "/script.js" for 127.0.0.1 at 2024-03-15 17:27:48 -0600
+Started GET "/media/svg/instagram.svg" for 127.0.0.1 at 2024-03-15 17:27:48 -0600
+Started GET "/media/svg/x-twitter.svg" for 127.0.0.1 at 2024-03-15 17:27:48 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for 127.0.0.1 at 2024-03-15 17:27:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/media/svg/square-facebook.svg" for 127.0.0.1 at 2024-03-15 17:27:50 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 17:28:37 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+Started GET "/admin/index" for 127.0.0.1 at 2024-03-15 17:28:42 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 17:28:47 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 183)
+  Rendered layout layouts/application.html.erb (Duration: 119.1ms | Allocations: 24202)
+Completed 200 OK in 146ms (Views: 136.1ms | ActiveRecord: 0.0ms | Allocations: 25098)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 17:28:49 -0600
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+Started GET "/productos" for 127.0.0.1 at 2024-03-15 17:28:49 -0600
+  [1m[36mUsuario Load (281.2ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:13
+Processing by ProductosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (260.7ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:9
+  Rendered productos/index.html.erb within layouts/application (Duration: 267.0ms | Allocations: 1300)
+  Rendered layout layouts/application.html.erb (Duration: 308.0ms | Allocations: 8004)
+Completed 200 OK in 341ms (Views: 59.4ms | ActiveRecord: 260.6ms | Allocations: 9303)
+
+
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 808.0ms | Allocations: 15391)
+  Rendered layout layouts/application.html.erb (Duration: 845.3ms | Allocations: 21891)
+Completed 200 OK in 873ms (Views: 77.1ms | ActiveRecord: 777.5ms | Allocations: 23518)
+
+
+Started GET "/productos/new" for 127.0.0.1 at 2024-03-15 17:28:51 -0600
+Processing by ProductosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/_form.html.erb (Duration: 2.7ms | Allocations: 1561)
+  Rendered productos/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1870)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 1959)
+Completed 500 Internal Server Error in 460ms (ActiveRecord: 383.2ms | Allocations: 8879)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `platillo' for an instance of #<Class:0x0000026f0a7dade0>):
+    1: <%= form_with model: platillo do |form| %>
+    2:     <% platillo.errors.full_messages.each do |error| %>
+    3:         <div><%= error %></div>
+    4:     <% end %>
+  
+app/views/productos/_form.html.erb:1
+app/views/productos/new.html.erb:7
+Started GET "/productos/new" for 127.0.0.1 at 2024-03-15 17:29:33 -0600
+Processing by ProductosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/_form.html.erb (Duration: 41.2ms | Allocations: 2677)
+  Rendered productos/new.html.erb within layouts/application (Duration: 46.8ms | Allocations: 3016)
+  Rendered layout layouts/application.html.erb (Duration: 150.6ms | Allocations: 26653)
+Completed 200 OK in 767ms (Views: 163.5ms | ActiveRecord: 409.5ms | Allocations: 31901)
+
+
+Started POST "/productos" for 127.0.0.1 at 2024-03-15 17:29:39 -0600
+Processing by ProductosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "producto"=>{"nombre"=>"", "precio"=>"", "descripcion"=>"", "promocion"=>"", "tipo"=>"Hamburguesa"}, "commit"=>"Create Producto"}
+  Rendering layout layouts/application.html.erb
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/_form.html.erb (Duration: 6.9ms | Allocations: 4302)
+  Rendered productos/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 4432)
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 10557)
+Completed 422 Unprocessable Entity in 55ms (Views: 47.0ms | ActiveRecord: 0.0ms | Allocations: 12053)
+
+
+Started POST "/productos" for 127.0.0.1 at 2024-03-15 17:30:08 -0600
+Processing by ProductosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "producto"=>{"nombre"=>"Hamburguer", "precio"=>"150", "descripcion"=>"Salchicha", "promocion"=>"0", "tipo"=>"Hamburguesa"}, "commit"=>"Create Producto"}
+  [1m[36mTRANSACTION (114.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/productos_controller.rb:17:in `create'
+  [1m[36mProducto Create (319.3ms)[0m  [1m[32mINSERT INTO "productos" ("nombre", "precio", "descripcion", "promocion", "tipo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nombre", "Hamburguer"], ["precio", 150.0], ["descripcion", "Salchicha"], ["promocion", 0.0], ["tipo", "Hamburguesa"], ["created_at", "2024-03-15 23:30:08.567090"], ["updated_at", "2024-03-15 23:30:08.567090"]]
+  ↳ app/controllers/productos_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (99.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/productos_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/productos
+Completed 302 Found in 435ms (ActiveRecord: 532.7ms | Allocations: 2238)
+
+
+Started GET "/productos" for 127.0.0.1 at 2024-03-15 17:30:09 -0600
+Processing by ProductosController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (233.2ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:9
+  Rendered productos/index.html.erb within layouts/application (Duration: 239.7ms | Allocations: 857)
+  Rendered layout layouts/application.html.erb (Duration: 278.3ms | Allocations: 7325)
+Completed 200 OK in 288ms (Views: 47.8ms | ActiveRecord: 233.2ms | Allocations: 7702)
+
+
+Started GET "/productos/new" for 127.0.0.1 at 2024-03-15 17:30:11 -0600
+Processing by ProductosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/_form.html.erb (Duration: 3.1ms | Allocations: 1455)
+  Rendered productos/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1548)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 7678)
+Completed 200 OK in 52ms (Views: 44.0ms | ActiveRecord: 0.0ms | Allocations: 7960)
+
+
+Started GET "/productos/1" for 127.0.0.1 at 2024-03-15 17:30:11 -0600
+Processing by ProductosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProducto Load (203.6ms)[0m  [1m[34mSELECT "productos".* FROM "productos" WHERE "productos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/productos_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering productos/show.html.erb within layouts/application
+  Rendered productos/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 344)
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 6826)
+Completed 200 OK in 722ms (Views: 42.1ms | ActiveRecord: 203.6ms | Allocations: 8194)
+
+
+Started GET "/productos/new" for 127.0.0.1 at 2024-03-15 17:30:13 -0600
+Processing by ProductosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/_form.html.erb (Duration: 3.3ms | Allocations: 1440)
+  Rendered productos/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1533)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 7662)
+Completed 200 OK in 51ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 7944)
+
+
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (81.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(625281553422693195)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (87.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (88.5ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+Migrating to CreateClientes (20240315233936)
+  [1m[36mTRANSACTION (81.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (110.5ms)[0m  [1m[35mCREATE TABLE "clientes" ("id" bigserial primary key, "nombre" character varying, "correo" character varying, "contraseña" character varying, "direccion" text, "telefono" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (113.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240315233936') RETURNING "version"[0m
+  [1m[36mTRANSACTION (203.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateTiendas (20240315234245)
+  [1m[36mTRANSACTION (193.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (409.0ms)[0m  [1m[35mCREATE TABLE "tiendas" ("id" bigserial primary key, "nombre" character varying, "direccion" text, "telefono" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (87.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240315234245') RETURNING "version"[0m
+  [1m[36mTRANSACTION (110.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (292.9ms)[0m  [1m[34mSELECT pg_advisory_unlock(625281553422693195)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (104.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/productos/new" for 127.0.0.1 at 2024-03-15 17:54:03 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (237.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/_form.html.erb (Duration: 62.9ms | Allocations: 4979)
+  Rendered productos/new.html.erb within layouts/application (Duration: 69.3ms | Allocations: 5569)
+  Rendered layout layouts/application.html.erb (Duration: 501.7ms | Allocations: 60552)
+Completed 200 OK in 3254ms (Views: 531.7ms | ActiveRecord: 1411.4ms | Allocations: 84790)
+
+
+Started GET "/productos" for 127.0.0.1 at 2024-03-15 17:54:11 -0600
+Processing by ProductosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (259.1ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:9
+  Rendered productos/index.html.erb within layouts/application (Duration: 265.7ms | Allocations: 1106)
+  Rendered layout layouts/application.html.erb (Duration: 308.5ms | Allocations: 7674)
+Completed 200 OK in 347ms (Views: 51.6ms | ActiveRecord: 259.0ms | Allocations: 9355)
+
+
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-15 17:54:13 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 6722)
+Completed 200 OK in 59ms (Views: 50.5ms | ActiveRecord: 0.0ms | Allocations: 7210)
+
+
+Started GET "/productos" for 127.0.0.1 at 2024-03-15 17:54:15 -0600
+Processing by ProductosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (224.7ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:9
+  Rendered productos/index.html.erb within layouts/application (Duration: 234.0ms | Allocations: 538)
+Started GET "/usuarios" for 127.0.0.1 at 2024-03-15 17:54:15 -0600
+  Rendered layout layouts/application.html.erb (Duration: 298.5ms | Allocations: 7483)
+Completed 200 OK in 305ms (Views: 76.1ms | ActiveRecord: 224.5ms | Allocations: 7765)
+
+
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (279.8ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:13
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 728.2ms | Allocations: 6470)
+  Rendered layout layouts/application.html.erb (Duration: 764.5ms | Allocations: 12965)
+Completed 200 OK in 788ms (Views: 89.8ms | ActiveRecord: 684.7ms | Allocations: 14387)
+
+
+Started GET "/productos" for 127.0.0.1 at 2024-03-15 17:54:16 -0600
+Processing by ProductosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (224.8ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:9
+  Rendered productos/index.html.erb within layouts/application (Duration: 229.1ms | Allocations: 531)
+  Rendered layout layouts/application.html.erb (Duration: 270.0ms | Allocations: 7035)
+Completed 200 OK in 278ms (Views: 46.8ms | ActiveRecord: 224.8ms | Allocations: 7309)
+
+
+Started GET "/tiendas" for 127.0.0.1 at 2024-03-15 17:54:17 -0600
+Processing by TiendasController#index as HTML
+Completed 406 Not Acceptable in 22ms (ActiveRecord: 0.0ms | Allocations: 885)
+
+
+  
+ActionController::MissingExactTemplate (TiendasController#index is missing a template for request formats: text/html):
+  
+actionpack (7.1.3.2) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.3.2) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.3.2) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.3.2) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.4) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.4) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.3.2) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.3.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.3.2) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.3.2) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.3.2) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.3.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.3.2) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.3.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.3.2) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.3.2) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.3.2) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.3.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.9.1) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.9.1) lib/rack/etag.rb:29:in `call'
+rack (3.0.9.1) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.9.1) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3.2) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9.1) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9.1) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9.1) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.2) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/tiendas" for 127.0.0.1 at 2024-03-15 17:57:05 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (244.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TiendasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1928)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2052)
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 0.0ms | Allocations: 6634)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil):
+     6: 
+     7: <hr>
+     8: <ul>
+     9:     <% @tiendas.each do |tienda|%>
+    10:         <li>
+    11:             <%= link_to tienda_path(tienda.id), class: 'tienda' do %>
+    12:                 <%=tienda.nombre %>
+  
+app/views/tiendas/index.html.erb:9
+Started GET "/tiendas" for 127.0.0.1 at 2024-03-16 15:37:46 -0600
+Processing by TiendasController#index as HTML
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 469)
+
+
+  
+NameError (undefined local variable or method `tienda' for an instance of TiendasController):
+  
+app/controllers/tiendas_controller.rb:3:in `index'
+Started GET "/tiendas" for 127.0.0.1 at 2024-03-16 15:38:11 -0600
+Processing by TiendasController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 520)
+
+
+  
+NameError (undefined local variable or method `tiendas' for an instance of TiendasController):
+  
+app/controllers/tiendas_controller.rb:3:in `index'
+Started GET "/tiendas" for 127.0.0.1 at 2024-03-16 15:39:08 -0600
+Processing by TiendasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+  [1m[36mTienda Load (201.2ms)[0m  [1m[34mSELECT "tiendas".* FROM "tiendas"[0m
+  ↳ app/views/tiendas/index.html.erb:9
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 3009.5ms | Allocations: 3884)
+  Rendered layout layouts/application.html.erb (Duration: 3431.5ms | Allocations: 59036)
+Completed 200 OK in 3572ms (Views: 2132.4ms | ActiveRecord: 1321.3ms | Allocations: 66189)
+
+
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-16 15:39:16 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 229)
+Started GET "/tiendas/new" for 127.0.0.1 at 2024-03-16 15:39:16 -0600
+  Rendered layout layouts/application.html.erb (Duration: 102.8ms | Allocations: 7274)
+Completed 200 OK in 123ms (Views: 112.0ms | ActiveRecord: 0.0ms | Allocations: 7763)
+
+
+Processing by TiendasController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/new.html.erb within layouts/application
+  Rendered tiendas/_form.html.erb (Duration: 19.5ms | Allocations: 2524)
+  Rendered tiendas/new.html.erb within layouts/application (Duration: 24.5ms | Allocations: 2846)
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 8985)
+Completed 200 OK in 894ms (Views: 60.8ms | ActiveRecord: 756.1ms | Allocations: 18782)
+
+
+Started GET "/tiendas" for 127.0.0.1 at 2024-03-16 15:39:24 -0600
+Processing by TiendasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+  [1m[36mTienda Load (249.9ms)[0m  [1m[34mSELECT "tiendas".* FROM "tiendas"[0m
+  ↳ app/views/tiendas/index.html.erb:9
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 255.0ms | Allocations: 450)
+  Rendered layout layouts/application.html.erb (Duration: 297.0ms | Allocations: 6946)
+Completed 200 OK in 306ms (Views: 49.3ms | ActiveRecord: 249.9ms | Allocations: 7223)
+
+
+Started GET "/tiendas" for 127.0.0.1 at 2024-03-16 15:39:25 -0600
+Processing by TiendasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+  [1m[36mTienda Load (262.6ms)[0m  [1m[34mSELECT "tiendas".* FROM "tiendas"[0m
+  ↳ app/views/tiendas/index.html.erb:9
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 266.8ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 308.2ms | Allocations: 6943)
+Completed 200 OK in 316ms (Views: 48.0ms | ActiveRecord: 262.4ms | Allocations: 7222)
+
+
+Started GET "/admins/index" for 127.0.0.1 at 2024-03-16 15:39:26 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 60)
+  Rendered layout layouts/application.html.erb (Duration: 39.2ms | Allocations: 6532)
+Completed 200 OK in 49ms (Views: 41.2ms | ActiveRecord: 0.0ms | Allocations: 6797)
+
+
+Started GET "/tiendas" for 127.0.0.1 at 2024-03-16 19:16:19 -0600
+Processing by TiendasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+  [1m[36mTienda Load (3136.9ms)[0m  [1m[34mSELECT "tiendas".* FROM "tiendas"[0m
+  ↳ app/views/tiendas/index.html.erb:9
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 3139.9ms | Allocations: 3633)
+  Rendered layout layouts/application.html.erb (Duration: 3184.3ms | Allocations: 27624)
+Completed 200 OK in 3203ms (Views: -1172.2ms | ActiveRecord: 4363.3ms | Allocations: 29331)
+
+
+Started GET "/tiendas/new" for 127.0.0.1 at 2024-03-16 19:16:25 -0600
+Processing by TiendasController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/new.html.erb within layouts/application
+  Rendered tiendas/_form.html.erb (Duration: 2.8ms | Allocations: 1466)
+  Rendered tiendas/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1771)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 7900)
+Completed 200 OK in 31ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 10729)
+
+
+Started GET "/" for ::1 at 2024-03-16 19:33:15 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 1337)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 1428)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms | Allocations: 2345)
+
+
+  
+ActionView::Template::Error (Missing partial home/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "C:/Users/Diego/Ruby/Cascady/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.4/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actiontext-7.1.3.2/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.3.2/app/views"
+):
+     9: </head>
+    10: <body>
+    11: 
+    12: <%= render 'home/navbar' %>
+    13: <div>
+    14: 
+    15: <div class="max-w-2xl mx-auto">
+  
+app/views/home/index.html.erb:12
+Started GET "/" for ::1 at 2024-03-16 19:34:00 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 2.8ms | Allocations: 146)
+  Rendered home/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 753)
+  Rendered layout layouts/application.html.erb (Duration: 127.7ms | Allocations: 24590)
+Completed 200 OK in 152ms (Views: 142.7ms | ActiveRecord: 0.0ms | Allocations: 25523)
+
+
+Started GET "/output.css" for ::1 at 2024-03-16 19:34:02 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/script.js" for ::1 at 2024-03-16 19:34:02 -0600
+Started GET "/app/views/articles/Cascady_Logo.svg" for ::1 at 2024-03-16 19:34:03 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-16 19:34:03 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-16 19:34:03 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-16 19:34:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/articles/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/output.css" for ::1 at 2024-03-16 19:34:05 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/output.css"):
+  
+Started GET "/admins" for ::1 at 2024-03-16 19:34:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/admins"):
+  
+Started GET "/admins/index" for ::1 at 2024-03-16 19:34:27 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 235)
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 6852)
+Completed 200 OK in 60ms (Views: 50.6ms | ActiveRecord: 0.0ms | Allocations: 7336)
+
+
+Started GET "/productos" for ::1 at 2024-03-16 19:34:29 -0600
+Processing by ProductosController#index as HTML
+Started GET "/tiendas" for ::1 at 2024-03-16 19:34:29 -0600
+  Rendering layout layouts/application.html.erb
+  Rendering productos/index.html.erb within layouts/application
+Processing by TiendasController#index as HTML
+Started GET "/clientes" for ::1 at 2024-03-16 19:34:30 -0600
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+Processing by ClientesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mTienda Load (2414.4ms)[0m  [1m[34mSELECT "tiendas".* FROM "tiendas"[0m
+  ↳ app/views/tiendas/index.html.erb:9
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 2420.8ms | Allocations: 9987)
+  [1m[36mProducto Load (2605.5ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:9
+  Rendered layout layouts/application.html.erb (Duration: 2470.5ms | Allocations: 17312)
+Completed 200 OK in 2525ms (Views: -616.2ms | ActiveRecord: 3124.1ms | Allocations: 18958)
+
+
+  [1m[36mCliente Load (2555.3ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:9
+  Rendered clientes/index.html.erb within layouts/application (Duration: 2562.2ms | Allocations: 15484)
+  Rendered layout layouts/application.html.erb (Duration: 2603.0ms | Allocations: 21990)
+Completed 200 OK in 2639ms (Views: -1201.7ms | ActiveRecord: 3816.0ms | Allocations: 23047)
+
+
+  Rendered productos/index.html.erb within layouts/application (Duration: 3040.5ms | Allocations: 36798)
+  Rendered layout layouts/application.html.erb (Duration: 3098.3ms | Allocations: 43269)
+Completed 200 OK in 3153ms (Views: -535.5ms | ActiveRecord: 3668.8ms | Allocations: 45258)
+
+
+Started GET "/clientes/new" for ::1 at 2024-03-16 19:34:34 -0600
+Processing by ClientesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/_form.html.erb (Duration: 212.4ms | Allocations: 18845)
+  Rendered clientes/new.html.erb within layouts/application (Duration: 220.4ms | Allocations: 19156)
+  Rendered layout layouts/application.html.erb (Duration: 253.7ms | Allocations: 25385)
+Completed 200 OK in 581ms (Views: 256.7ms | ActiveRecord: 259.8ms | Allocations: 30722)
+
+
+Started GET "/clientes" for ::1 at 2024-03-16 19:34:36 -0600
+Processing by ClientesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (159.5ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:9
+  Rendered clientes/index.html.erb within layouts/application (Duration: 162.7ms | Allocations: 455)
+  Rendered layout layouts/application.html.erb (Duration: 199.0ms | Allocations: 6854)
+Completed 200 OK in 206ms (Views: 41.6ms | ActiveRecord: 159.5ms | Allocations: 7127)
+
+
+Started GET "/admins/index" for ::1 at 2024-03-16 19:34:37 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 60)
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 6475)
+Completed 200 OK in 48ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 6740)
+
+
+Started GET "/clientes/new" for ::1 at 2024-03-16 19:34:38 -0600
+Processing by ClientesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/_form.html.erb (Duration: 3.2ms | Allocations: 1343)
+  Rendered clientes/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1436)
+  Rendered layout layouts/application.html.erb (Duration: 44.3ms | Allocations: 7565)
+Completed 200 OK in 54ms (Views: 46.0ms | ActiveRecord: 0.0ms | Allocations: 7847)
+
+
+Started GET "/admins/index" for ::1 at 2024-03-16 19:34:38 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 60)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 6569)
+Completed 200 OK in 50ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 6834)
+
+
+Started GET "/tiendas" for ::1 at 2024-03-16 19:34:40 -0600
+Processing by TiendasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+  [1m[36mTienda Load (158.6ms)[0m  [1m[34mSELECT "tiendas".* FROM "tiendas"[0m
+  ↳ app/views/tiendas/index.html.erb:9
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 161.8ms | Allocations: 448)
+  Rendered layout layouts/application.html.erb (Duration: 202.6ms | Allocations: 6961)
+Completed 200 OK in 213ms (Views: 46.3ms | ActiveRecord: 158.5ms | Allocations: 7235)
+
+
+Started GET "/tiendas/new" for ::1 at 2024-03-16 19:34:41 -0600
+Processing by TiendasController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/new.html.erb within layouts/application
+  Rendered tiendas/_form.html.erb (Duration: 4.6ms | Allocations: 1362)
+  Rendered tiendas/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 1670)
+  Rendered layout layouts/application.html.erb (Duration: 49.2ms | Allocations: 7833)
+Completed 200 OK in 67ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 10591)
+
+
+Started GET "/tiendas" for ::1 at 2024-03-16 19:34:42 -0600
+Processing by TiendasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+  [1m[36mTienda Load (162.7ms)[0m  [1m[34mSELECT "tiendas".* FROM "tiendas"[0m
+  ↳ app/views/tiendas/index.html.erb:9
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 166.3ms | Allocations: 447)
+  Rendered layout layouts/application.html.erb (Duration: 208.6ms | Allocations: 6855)
+Completed 200 OK in 217ms (Views: 47.9ms | ActiveRecord: 162.7ms | Allocations: 7128)
+
+
+Started GET "/admins/index" for ::1 at 2024-03-16 19:34:43 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 60)
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 6478)
+Completed 200 OK in 52ms (Views: 45.7ms | ActiveRecord: 0.0ms | Allocations: 6743)
+
+
+Started GET "/admins/index" for ::1 at 2024-03-16 19:34:44 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 60)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 6561)
+Completed 200 OK in 47ms (Views: 41.2ms | ActiveRecord: 0.0ms | Allocations: 6826)
+
+
+Started GET "/productos" for ::1 at 2024-03-16 19:34:48 -0600
+Processing by ProductosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (158.2ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:9
+  Rendered productos/index.html.erb within layouts/application (Duration: 161.0ms | Allocations: 531)
+Started GET "/tiendas" for ::1 at 2024-03-16 19:34:48 -0600
+  Rendered layout layouts/application.html.erb (Duration: 237.3ms | Allocations: 7477)
+Completed 200 OK in 247ms (Views: 81.3ms | ActiveRecord: 158.2ms | Allocations: 7752)
+
+
+Processing by TiendasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tiendas/index.html.erb within layouts/application
+  [1m[36mTienda Load (255.7ms)[0m  [1m[34mSELECT "tiendas".* FROM "tiendas"[0m
+  ↳ app/views/tiendas/index.html.erb:9
+  Rendered tiendas/index.html.erb within layouts/application (Duration: 258.7ms | Allocations: 465)
+  Rendered layout layouts/application.html.erb (Duration: 300.2ms | Allocations: 6902)
+Completed 200 OK in 310ms (Views: 46.8ms | ActiveRecord: 255.7ms | Allocations: 7175)
+
+
+Started GET "/admins/index" for ::1 at 2024-03-16 19:59:09 -0600
+Processing by AdminsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/index.html.erb within layouts/application
+  Rendered admins/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 60)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 6469)
+Completed 200 OK in 33ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 6732)
+
+
+Started GET "/" for ::1 at 2024-03-17 11:02:47 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 325.9ms | Allocations: 25206)
+Completed 500 Internal Server Error in 425ms (ActiveRecord: 0.0ms | Allocations: 26118)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "C:/Users/Diego/Ruby/Cascady/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.4/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actiontext-7.1.3.2/app/views"
+  * "C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.3.2/app/views"
+):
+    13: 
+    14:   <body class="bg-[#FFF1F1]">
+    15:     <main class="container mx-auto mt-28 px-5 flex">
+    16:       <%= render partial: 'shared/header' %>
+    17:       <%= yield %>
+    18:     </main>
+    19:   </body>
+  
+app/views/layouts/application.html.erb:16
+Started GET "/" for ::1 at 2024-03-17 11:03:31 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 162)
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 121)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 176.7ms | Allocations: 24426)
+Completed 200 OK in 215ms (Views: 199.5ms | ActiveRecord: 0.0ms | Allocations: 25359)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:03:32 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:03:32 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:03:32 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:03:32 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/" for ::1 at 2024-03-17 11:04:09 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 56.4ms | Allocations: 6639)
+Completed 200 OK in 66ms (Views: 58.3ms | ActiveRecord: 0.0ms | Allocations: 6902)
+
+
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:04:10 -0600
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:04:10 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:04:10 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:04:10 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for ::1 at 2024-03-17 11:04:52 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (130.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 258)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 128)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 845.8ms | Allocations: 66323)
+Completed 200 OK in 943ms (Views: 876.3ms | ActiveRecord: 0.0ms | Allocations: 70950)
+
+
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:04:57 -0600
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:04:57 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:04:57 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:04:57 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/media/img/hamburg.jpg" for ::1 at 2024-03-17 11:04:58 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/hamburg.jpg"):
+  
+Started GET "/" for ::1 at 2024-03-17 11:15:23 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 164)
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 116)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 149.6ms | Allocations: 24640)
+Completed 200 OK in 174ms (Views: 162.3ms | ActiveRecord: 0.0ms | Allocations: 25575)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:15:24 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:15:24 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:15:24 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:15:24 -0600
+Started GET "/media/img/hamburg.jpg" for ::1 at 2024-03-17 11:15:24 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/hamburg.jpg"):
+  
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:15:46 -0600
+  
+AbstractController::ActionNotFound (The action 'list_product' could not be found for HomeController):
+  
+actionpack (7.1.3.2) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.3.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.9.1) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.9.1) lib/rack/etag.rb:29:in `call'
+rack (3.0.9.1) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.9.1) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3.2) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9.1) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9.1) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9.1) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.2) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:16:24 -0600
+  
+AbstractController::ActionNotFound (The action 'list_product' could not be found for HomeController):
+  
+actionpack (7.1.3.2) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.3.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.9.1) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.9.1) lib/rack/etag.rb:29:in `call'
+rack (3.0.9.1) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.9.1) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3.2) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9.1) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9.1) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9.1) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.2) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:17:14 -0600
+Processing by HomeController#list_products as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/list_products.html.erb within layouts/application
+  Rendered home/list_products.html.erb within layouts/application (Duration: 2.4ms | Allocations: 147)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 116)
+  Rendered shared/_footer.html.erb (Duration: 1.9ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 147.0ms | Allocations: 24618)
+Completed 200 OK in 179ms (Views: 167.7ms | ActiveRecord: 0.0ms | Allocations: 25555)
+
+
+Started GET "/media/img/combo_pollo.jpg" for ::1 at 2024-03-17 11:17:16 -0600
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:17:16 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:17:16 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:17:16 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:17:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/combo_pollo.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:21:31 -0600
+Processing by HomeController#list_products as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/list_products.html.erb within layouts/application
+  Rendered home/list_products.html.erb within layouts/application (Duration: 2.1ms | Allocations: 147)
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 116)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 141.5ms | Allocations: 24634)
+Completed 200 OK in 172ms (Views: 161.1ms | ActiveRecord: 0.0ms | Allocations: 25570)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:21:32 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:21:32 -0600
+Started GET "/media/img/combo_pollo.jpg" for ::1 at 2024-03-17 11:21:32 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:21:32 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:21:32 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/combo_pollo.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:22:15 -0600
+Processing by HomeController#list_products as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/list_products.html.erb within layouts/application
+  Rendered home/list_products.html.erb within layouts/application (Duration: 1.6ms | Allocations: 147)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 116)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 137.8ms | Allocations: 24624)
+Completed 200 OK in 171ms (Views: 159.3ms | ActiveRecord: 0.0ms | Allocations: 25560)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:22:16 -0600
+Started GET "/media/img/combo_pollo.jpg" for ::1 at 2024-03-17 11:22:16 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:22:16 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:22:16 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:22:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/combo_pollo.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/home" for ::1 at 2024-03-17 11:22:54 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home/index" for ::1 at 2024-03-17 11:23:01 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/home" for ::1 at 2024-03-17 11:23:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/" for ::1 at 2024-03-17 11:24:59 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 158)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 46.7ms | Allocations: 6928)
+Completed 200 OK in 59ms (Views: 48.6ms | ActiveRecord: 0.0ms | Allocations: 7259)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:25:00 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:25:00 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:25:00 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:25:00 -0600
+Started GET "/media/img/hamburg.jpg" for ::1 at 2024-03-17 11:25:00 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/hamburg.jpg"):
+  
+Started GET "/" for ::1 at 2024-03-17 11:26:05 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 166)
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 116)
+  Rendered shared/_footer.html.erb (Duration: 2.2ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 115.6ms | Allocations: 24661)
+Completed 200 OK in 139ms (Views: 129.8ms | ActiveRecord: 0.0ms | Allocations: 25596)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:26:06 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:26:06 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:26:06 -0600
+Started GET "/media/img/hamburg.jpg" for ::1 at 2024-03-17 11:26:06 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:26:06 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/hamburg.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:26:40 -0600
+Processing by HomeController#list_products as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/list_products.html.erb within layouts/application
+  Rendered home/list_products.html.erb within layouts/application (Duration: 1.2ms | Allocations: 139)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 52.5ms | Allocations: 6916)
+Completed 200 OK in 64ms (Views: 54.7ms | ActiveRecord: 0.0ms | Allocations: 7247)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:26:40 -0600
+Started GET "/media/img/combo_pollo.jpg" for ::1 at 2024-03-17 11:26:40 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:26:40 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:26:40 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:26:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/combo_pollo.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:31:17 -0600
+Processing by HomeController#list_products as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/list_products.html.erb within layouts/application
+  Rendered home/list_products.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 6754)
+Completed 200 OK in 53ms (Views: 47.0ms | ActiveRecord: 0.0ms | Allocations: 7018)
+
+
+Started GET "/media/img/combo_pollo.jpg" for ::1 at 2024-03-17 11:31:17 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:31:17 -0600
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:31:17 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:31:17 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:31:18 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/combo_pollo.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:31:41 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (88.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#list_products as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/list_products.html.erb within layouts/application
+  Rendered home/list_products.html.erb within layouts/application (Duration: 1.4ms | Allocations: 239)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 128)
+  Rendered shared/_footer.html.erb (Duration: 3.6ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 477.8ms | Allocations: 57544)
+Completed 200 OK in 572ms (Views: 512.8ms | ActiveRecord: 0.0ms | Allocations: 62171)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:31:45 -0600
+Started GET "/media/img/combo_pollo.jpg" for ::1 at 2024-03-17 11:31:45 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:31:45 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:31:45 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:31:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/combo_pollo.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:33:39 -0600
+Processing by HomeController#list_products as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/list_products.html.erb within layouts/application
+  Rendered home/list_products.html.erb within layouts/application (Duration: 1.2ms | Allocations: 145)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 117)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 114.7ms | Allocations: 24628)
+Completed 200 OK in 137ms (Views: 129.6ms | ActiveRecord: 0.0ms | Allocations: 25563)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:33:40 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:33:40 -0600
+Started GET "/media/img/combo_pollo.jpg" for ::1 at 2024-03-17 11:33:40 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:33:40 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:33:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/combo_pollo.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+[dotenv] Set [36mDATABASE_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/home/list_products" for ::1 at 2024-03-17 11:34:01 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (87.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#list_products as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/list_products.html.erb within layouts/application
+  Rendered home/list_products.html.erb within layouts/application (Duration: 1.2ms | Allocations: 239)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 128)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 460.5ms | Allocations: 57467)
+Completed 200 OK in 534ms (Views: 485.8ms | ActiveRecord: 0.0ms | Allocations: 62094)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:34:04 -0600
+Started GET "/media/img/combo_pollo.jpg" for ::1 at 2024-03-17 11:34:04 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:34:04 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:34:04 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:34:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/combo_pollo.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+Started GET "/" for ::1 at 2024-03-17 11:35:21 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 160)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 6910)
+Completed 200 OK in 57ms (Views: 45.5ms | ActiveRecord: 0.0ms | Allocations: 7243)
+
+
+Started GET "/media/svg/Cascady_Logo.svg" for ::1 at 2024-03-17 11:35:21 -0600
+Started GET "/media/svg/square-facebook.svg" for ::1 at 2024-03-17 11:35:21 -0600
+Started GET "/media/svg/x-twitter.svg" for ::1 at 2024-03-17 11:35:21 -0600
+Started GET "/media/svg/instagram.svg" for ::1 at 2024-03-17 11:35:21 -0600
+Started GET "/media/img/hamburg.jpg" for ::1 at 2024-03-17 11:35:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/square-facebook.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/Cascady_Logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/instagram.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/svg/x-twitter.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/media/img/hamburg.jpg"):
+  

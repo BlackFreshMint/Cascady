@@ -1,0 +1,17 @@
+<h2>tiendas</h2>
+
+<hr>
+<%=link_to "Regresar", admins_path%>
+<%=link_to "Agregar tienda", new_tienda_path%>
+
+<hr>
+<ul>
+    <% @tiendas.each do |tienda|%>
+        <li>
+            <%= link_to tienda_path(tienda.id), class: 'tienda' do %>
+                <%=tienda.nombre %>
+            <%end%>
+        </li>
+        <hr>
+    <% end %>
+</ul>

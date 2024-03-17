@@ -39,7 +39,7 @@ class UsuariosController < ApplicationController
     @usuario = Usuario.find(params[:id])
     @usuario.destroy
 
-    redirect_to root_path, status: :see_other
+    redirect_to usuarios_path, status: :see_other
   end
 
   private

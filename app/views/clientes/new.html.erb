@@ -1,0 +1,7 @@
+<h2>Cliente <%=@cliente.nombre%></h2>
+<hr>
+
+<%= link_to "Regresar", clientes_path%>
+<hr>
+
+<%= render "form", cliente: @cliente%>

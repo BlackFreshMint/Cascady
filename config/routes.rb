@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   root "home#index"
+  get 'home/list_products', to: 'home#list_products'
   get 'admins/index', to: 'admins#index', as: :admins
-  resources :platillos
+  resources :tiendas
+  resources :clientes
+  resources :productos
   resources :usuarios
 
 

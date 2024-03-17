@@ -1,0 +1,17 @@
+<h2>Clientes</h2>
+
+<hr>
+<%=link_to "Regresar", admins_path%>
+<%=link_to "Agregar cliente", new_cliente_path%>
+
+<hr>
+<ul>
+    <% @clientes.each do |cliente|%>
+        <li>
+            <%= link_to cliente_path(cliente.id), class: 'cliente' do %>
+                <%=cliente.nombre %>
+            <%end%>
+        </li>
+        <hr>
+    <% end %>
+</ul>

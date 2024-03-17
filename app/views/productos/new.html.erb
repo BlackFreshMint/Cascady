@@ -1,0 +1,7 @@
+<h2>Producto <%=@producto.nombre%></h2>
+<hr>
+
+<%= link_to "Regresar", productos_path%>
+<hr>
+
+<%= render "form", producto: @producto%>

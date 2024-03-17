@@ -1,0 +1,17 @@
+<h2>Productos</h2>
+
+<hr>
+<%=link_to "Regresar", admins_path%>
+<%=link_to "Agregar platillo", new_producto_path%>
+
+<hr>
+<ul>
+    <% @productos.each do |producto|%>
+        <li>
+            <%= link_to producto_path(producto.id), class: 'producto' do %>
+                <%=producto.nombre %>
+            <%end%>
+        </li>
+        <hr>
+    <% end %>
+</ul>

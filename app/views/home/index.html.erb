@@ -1,68 +1,46 @@
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script src="https://cdn.tailwindcss.com"></script>
-  <title>Document</title>
-</head>
-<body>
-
-<%= render 'home/navbar' %>
-<div>
-
-<div class="max-w-2xl mx-auto">
-
-	<div id="default-carousel" class="relative" data-carousel="static">
-
-        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
-
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl ">Primer Slide</span>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
-
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
-
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
-        </div>
-
-
-        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        </div>
-
-        <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30  group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
-                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-                <span class="hidden">Anterior</span>
-            </span>
-        </button>
-        <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
-            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 0 group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
-                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                <span class="hidden">Siguiente</span>
-            </span>
-        </button>
-    </div>
-
-	<p class="mt-5"> Texto de Prueba
-	</p>
-    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+<div class="flex flex-row items-center min-[320px]:p-2 sm:p-3 md:p-4 lg:p-5">
+    <p class="font-ubuntu pr-2 font-bold text-[#C80D0D] min-[320px]:text-[16px] sm:text-[20px] md:text-[24px] lg:text-[28px]">Menú</p>
+    <div class="w-full"><hr class="border border-dashed border-[#C80D0D]"></div>
 </div>
 
-    <script type="module" src="script.js"></script>
+<div class="min-[320px]:px-2 min-[320px]:pb-2 min-[320px]:space-y-2 sm:px-3 sm:pb-3 sm:space-y-3 md:px-4 md:pb-4 md:space-y-4 lg:space-y-0 lg:grid-cols-2 lg:grid lg:px-5 lg:pb-5">
+    <div class="relative group flex place-items-center place-content-center rounded-lg bg-[url('../media/img/hamburg.jpg')] bg-cover bg-center min-[320px]:h-[96px] sm:h-[128px] md:h-[180px] lg:mr-5 lg:h-[200px]">
+        <div class="absolute w-full bg-[rgba(0,0,0,0.5)] bg-cover h-full flex items-center place-content-center rounded-lg">
+            <p class=" text-white font-bold min-[32px]:text-[24px] min-[320px]:group-hover:text-[28px] sm:text-[32px] sm:group-hover:text-[36px] md:text-[36px] md:group-hover:text-[40px] lg:text-[40px] lg:group-hover:text-[44px]">Hamburguesas</p>
+        </div>
+    </div>
 
-<%= render 'home/footer' %>
+    <div class="relative group flex place-items-center place-content-center rounded-lg bg-[url('../media/img/hamburg.jpg')] bg-cover bg-center min-[320px]:h-[96px] sm:h-[128px] md:h-[180px] lg:h-[200px]">
+        <div class="absolute w-full bg-[rgba(0,0,0,0.5)] bg-cover h-full flex items-center place-content-center rounded-lg">
+            <p class=" text-white font-bold min-[320px]:text-[24px] min-[320px]:group-hover:text-[28px] sm:text-[32px] sm:group-hover:text-[36px] md:text-[36px] md:group-hover:text-[40px] lg:text-[40px] lg:group-hover:text-[44px]">Hamburguesas</p>
+        </div>
+    </div>
+</div>
 
+<div class="min-[320px]:px-2 min-[320px]:pb-2 min-[320px]:space-y-2 sm:px-3 sm:pb-3 sm:space-y-3 md:px-4 md:pb-4 md:space-y-4 lg:space-y-0 lg:grid-cols-2 lg:grid lg:px-5 lg:pb-5">
+    <div class="relative group flex place-items-center place-content-center rounded-lg bg-[url('../media/img/hamburg.jpg')] bg-cover bg-center min-[320px]:h-[96px] sm:h-[128px] md:h-[180px] lg:mr-5 lg:h-[200px]">
+        <div class="absolute w-full bg-[rgba(0,0,0,0.5)] bg-cover h-full flex items-center place-content-center rounded-lg">
+            <p class=" text-white font-bold min-[32px]:text-[24px] min-[320px]:group-hover:text-[28px] sm:text-[32px] sm:group-hover:text-[36px] md:text-[36px] md:group-hover:text-[40px] lg:text-[40px] lg:group-hover:text-[44px]">Hamburguesas</p>
+        </div>
+    </div>
 
-</body>
+    <div class="relative group flex place-items-center place-content-center rounded-lg bg-[url('../media/img/hamburg.jpg')] bg-cover bg-center min-[320px]:h-[96px] sm:h-[128px] md:h-[180px] lg:h-[200px]">
+        <div class="absolute w-full bg-[rgba(0,0,0,0.5)] bg-cover h-full flex items-center place-content-center rounded-lg">
+            <p class=" text-white font-bold min-[320px]:text-[24px] min-[320px]:group-hover:text-[28px] sm:text-[32px] sm:group-hover:text-[36px] md:text-[36px] md:group-hover:text-[40px] lg:text-[40px] lg:group-hover:text-[44px]">Hamburguesas</p>
+        </div>
+    </div>
+</div>
 
-</html>
+<div class="min-[320px]:px-2 min-[320px]:pb-2 min-[320px]:space-y-2 sm:px-3 sm:pb-3 sm:space-y-3 md:px-4 md:pb-4 md:space-y-4 lg:space-y-0 lg:grid-cols-2 lg:grid lg:px-5 lg:pb-5">
+    <div class="relative group flex place-items-center place-content-center rounded-lg bg-[url('../media/img/hamburg.jpg')] bg-cover bg-center min-[320px]:h-[96px] sm:h-[128px] md:h-[180px] lg:mr-5 lg:h-[200px]">
+        <div class="absolute w-full bg-[rgba(0,0,0,0.5)] bg-cover h-full flex items-center place-content-center rounded-lg">
+            <p class=" text-white font-bold min-[32px]:text-[24px] min-[320px]:group-hover:text-[28px] sm:text-[32px] sm:group-hover:text-[36px] md:text-[36px] md:group-hover:text-[40px] lg:text-[40px] lg:group-hover:text-[44px]">Hamburguesas</p>
+        </div>
+    </div>
+
+    <div class="relative group flex place-items-center place-content-center rounded-lg bg-[url('../media/img/hamburg.jpg')] bg-cover bg-center min-[320px]:h-[96px] sm:h-[128px] md:h-[180px] lg:h-[200px]">
+        <div class="absolute w-full bg-[rgba(0,0,0,0.5)] bg-cover h-full flex items-center place-content-center rounded-lg">
+            <p class=" text-white font-bold min-[320px]:text-[24px] min-[320px]:group-hover:text-[28px] sm:text-[32px] sm:group-hover:text-[36px] md:text-[36px] md:group-hover:text-[40px] lg:text-[40px] lg:group-hover:text-[44px]">Hamburguesas</p>
+        </div>
+    </div>
+</div>

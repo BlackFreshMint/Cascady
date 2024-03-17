@@ -1,0 +1,15 @@
+<h2>tienda <%=@tienda.nombre%></h2>
+<hr>
+
+<%= link_to "Regresar", tiendas_path%>
+<hr>
+
+<p>Nombre: <%=@tienda.nombre%></p>
+<p>Direccion: <%=@tienda.direccion%></p>
+<p>Telefono: <%=@tienda.telefono%></p>
+
+<%= link_to "Editar", edit_tienda_path(@tienda) %></li>
+<%= link_to "Eliminar", tienda_path(@tienda), data: {
+    turbo_method: :delete,
+    turbo_confirm: "Estas seguro de eliminar el tienda ?"
+} %>
