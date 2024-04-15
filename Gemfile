@@ -68,3 +68,5 @@ end
 gem "tailwindcss-rails", "~> 2.3"
 gem "pg", "1.5.6"
 gem 'dotenv-rails', groups: [:development, :test]
+
+gem 'devise'

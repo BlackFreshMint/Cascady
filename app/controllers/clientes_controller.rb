@@ -15,7 +15,7 @@ class ClientesController < ApplicationController
     @cliente = Cliente.new(cliente_params)
 
     if @cliente.save
-        redirect_to clientes_path, notice: 'Se ha agregado un nuevo Cliente'
+        redirect_to clientes_path
     else
         render :new, status: :unprocessable_entity
     end
@@ -45,6 +45,6 @@ class ClientesController < ApplicationController
   private
 
   def cliente_params
-    params.require(:cliente).permit(:nombre, :correo, :contraseña, :telefono, :direccion)
+    params.require(:cliente).permit(:nombre, :telefono, :contraseña)
   end
 end

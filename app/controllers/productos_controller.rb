@@ -15,7 +15,7 @@ class ProductosController < ApplicationController
     @producto = Producto.new(producto_params)
 
     if @producto.save
-        redirect_to productos_path, notice: 'Se ha agregado un nuevo producto'
+      redirect_to productos_path
     else
         render :new, status: :unprocessable_entity
     end
@@ -45,6 +45,6 @@ class ProductosController < ApplicationController
   private
 
   def producto_params
-    params.require(:producto).permit(:nombre, :precio, :descripcion, :promocion, :tipo)
+    params.require(:producto).permit(:nombre, :precio, :descripcion, :promocion, :tipo, :foto)
   end
 end

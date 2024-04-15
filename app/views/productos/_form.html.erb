@@ -27,9 +27,13 @@
         <%= form.label :tipo %>
         <%= form.select :tipo, options_for_select(["Hamburguesa", "Papas", "Alitas"]) %>
     </div>
+    <div>
+        <%= form.label :foto %>
+        <%= form.file_field :foto%>
+    </div>
 
     <div>
-        <%= form.submit %>
+        <%= form.submit "Guardar"%>
     </div>
 <% end %>
 <hr>

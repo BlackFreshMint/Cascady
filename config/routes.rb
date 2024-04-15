@@ -1,9 +1,24 @@
 Rails.application.routes.draw do
-  root "home#index"
-  get 'home/list_products', to: 'home#list_products'
   get 'admins/index', to: 'admins#index', as: :admins
+
+  root "home#index"
+  get 'home/registro', to: 'home#registro', as: :registro
+  post 'home/create', to: 'home#create_registro'
+  get 'home/list_products', to: 'home#list_products', as: :list_products
+  
+  get 'home/pre_login', to: 'home#pre_login', as: :pre_login
+  get 'home/product_modal', to: 'home#product_modal', as: :product_modal
+  post 'home/product_modal', to: 'home#orden', as: :orden
+  
+  get 'sessions/new', to: 'sessions#new', as: :login
+  post 'sessions/create', to: 'sessions#create'
+  
+  resources :clientes do
+    resources :ubicacions
+  end
+  
+  resources :recursos
   resources :tiendas
-  resources :clientes
   resources :productos
   resources :usuarios
 

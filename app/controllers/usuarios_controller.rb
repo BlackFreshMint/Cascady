@@ -15,7 +15,7 @@ class UsuariosController < ApplicationController
     @usuario = Usuario.new(usuario_params)
 
     if @usuario.save
-        redirect_to usuarios_path, notice: 'Se ha agregado un nuevo usuario'
+        redirect_to usuarios_path
     else
         render :new, status: :unprocessable_entity
     end
