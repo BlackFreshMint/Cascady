@@ -1,0 +1,14 @@
+<center>
+<h1> Password Editing </h1>
+
+<%= form_with model: Current.user, url: edit_password_path do |form| %>
+
+<%= form.label :password %><br>
+<%= form.password_field :password, placeholder: "password" %><br>
+
+<%= form.label :password_confirmation %><br>
+<%= form.password_field :password_confirmation, placeholder: "confirm password"%><br>
+
+<%= form.submit "save password" %>
+
+<% end %>

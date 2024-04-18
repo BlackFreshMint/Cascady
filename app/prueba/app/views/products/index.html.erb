@@ -1,0 +1,26 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Promo</th>
+      <th>Category</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% unless @products.nil? %>  <% @products.each do |product| %>
+        <tr>
+          <td><%= product.name %></td>
+          <td><%= product.precio&.to_f.round(2) || "N/A" %>  </td>  <td><%= product.promo&.to_f.round(2) || "N/A" %>  </td>
+          <td><%= product.category %></td>
+          <td><%= product.description %></td>
+        </tr>
+      <% end %>
+    <% else %>
+      <tr>
+        <td colspan="5">No products found!</td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
